@@ -1,0 +1,113 @@
+.main-content {
+    width: 50%;
+    display: flex;
+}
+
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 90%;
+    }
+
+    .login_form {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 800px) {
+    .main-content {
+        width: 70%;
+    }
+}
+
+.row > h2 {
+    color: #008080;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.login_form {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+form {
+    padding: 0 2em;
+}
+
+.form__input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: 1em 0.5em 0.5em;
+    padding-left: 2em;
+    outline: none;
+    margin-top: 2.5em;
+    transition: all 0.5s ease;
+}
+
+.form__input:focus {
+    border-bottom-color: #008080;
+    box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
+    border-radius: 4px;
+}
+
+.login-btn {
+    transition: all 0.5s ease;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 30px;
+    color: #008080;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #008080;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.login-btn:hover,
+.login-btn:focus {
+    background-color: #008080;
+    color: #fff;
+}
+
+.input-container {
+    position: relative;
+}
+
+.eye-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    right: 14px;
+    transform: translateY(-50%);
+}
+
+.person-key-icons {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+}
+
+.error-message {
+    font-size: 12px;
+    color: red;
+    text-align: left;
+}
+
+#login-mistake {
+    color: red;
+}

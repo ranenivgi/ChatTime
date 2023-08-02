@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "696002596564",
+    "project_id": "android-client-chattime",
+    "storage_bucket": "android-client-chattime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696002596564:android:b143682bb79f84f1e97541",
+        "android_client_info": {
+          "package_name": "com.example.android_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696002596564-5aahm6a7h7ql7in52b1n5n9cf9g1iqs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADUFji0VQFli3C4CkaiOZSDiBBlVoWMnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696002596564-5aahm6a7h7ql7in52b1n5n9cf9g1iqs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696002596564:android:6980d92d800b3c9ce97541",
+        "android_client_info": {
+          "package_name": "com.example.ap2_ex3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696002596564-5aahm6a7h7ql7in52b1n5n9cf9g1iqs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADUFji0VQFli3C4CkaiOZSDiBBlVoWMnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696002596564-5aahm6a7h7ql7in52b1n5n9cf9g1iqs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

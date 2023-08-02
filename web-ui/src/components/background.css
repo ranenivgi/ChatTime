@@ -1,0 +1,23 @@
+body {
+    background-image: url(./background-pictures/background_1920x1080.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url(./background-pictures/background_750x1000.svg);
+    }
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+.card .row {
+    width: 100%;
+    height: 100%;
+}

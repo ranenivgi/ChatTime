@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="register_register_text">Register</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_confirmation">Password Confirmation</string>
+    <string name="register_display_name">Display Name</string>
+    <string name="register_upload_image">Upload Image</string>
+    <string name="register_btnSubmit">Submit</string>
+    <string name="register_available_on">Available on</string>
+    <string name="login_login_text">Log In</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="register_submit">Submit</string>
+    <string name="login_loginText">Log In</string>
+    <string name="login_submit">Login</string>
+    <string name="register_loginText">Login</string>
+    <string name="register_existsText">Already have an account?</string>
+    <string name="login_existsText">Don\'t have an account?</string>
+    <string name="login_registerText">Register Here</string>
+    <string name="contact_profile_image">Contact Image</string>
+    <string name="error_invalid_username">*Username must be at least more than 2 characters</string>
+    <string name="error_username_taken">*Username is taken</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="addContact_addContactText">Add Contact</string>
+    <string name="addContact_addBtn">Confirm</string>
+    <string name="addContact_hint">Contact\'s user name</string>
+    <string name="addContact_return">Return</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings">Settings</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="search">Search</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="profile_pic">Profile Pic</string>
+    <string name="settings_submit">Submit</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_back">back</string>
+    <string name="enter_a_server_address">Enter a server address X.X.X.X:PORT</string>
+
+</resources>

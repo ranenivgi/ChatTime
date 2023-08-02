@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChatTime</string>
+    <string name="register_register_text">Register</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_confirmation">Password Confirmation</string>
+    <string name="register_display_name">Display Name</string>
+    <string name="register_upload_image">Upload Image</string>
+    <string name="register_btnSubmit">Submit</string>
+    <string name="register_available_on">Available on</string>
+    <string name="login_login_text">Log In</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="register_submit">Submit</string>
+</resources>

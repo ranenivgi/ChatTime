@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="message_send">#3c3f41</color>
+    <color name="message_receive">#996600</color>
+    <color name="btn">#222222</color>
+    <color name="available_on_text">#999999</color>
+    <color name="form">#2b2b2b</color>
+    <color name="btn_text">#999999</color>
+    <color name="hint">#999999</color>
+    <color name="form_background">#323232</color>
+    <color name="title">#008080</color>
+    <color name="icons_background">#222222</color>
+    <color name="text">#999999</color>
+    <color name="previewImg">#cccccc</color>
+    <color name="top_bar_text">#CCCCCC</color>
+    <color name="top_bar">#136386</color>
+    <color name="chat_background">#2b2b2b</color>
+    <color name="contactList_background">#323232</color>
+    <color name="add_btn_background">#136386</color>
+    <color name="messageText">#CCCCCC</color>
+
+</resources>

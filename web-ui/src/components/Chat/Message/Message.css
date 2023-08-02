@@ -1,0 +1,23 @@
+.send {
+    background-color: #c4c2c2 !important;
+    word-wrap: break-word !important;
+    white-space: pre-line !important;
+    max-width: 20vw;
+}
+
+.justify-content-start{
+    margin-left: 2%;
+}
+
+.receive {
+    background-color: #f1c450 !important;
+    color: black !important;
+    word-wrap: break-word !important;
+    white-space: pre-line !important;
+    max-width: 20vw;
+}
+
+.chat-img {
+    width: 45px;
+    height: 100%;
+}

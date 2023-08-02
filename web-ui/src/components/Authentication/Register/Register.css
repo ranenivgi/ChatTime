@@ -1,0 +1,129 @@
+.main-content {
+    display: flex;
+}
+
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 90%;
+    }
+
+    .login_form {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 800px) {
+    .main-content {
+        width: 70%;
+    }
+}
+
+.row > h2 {
+    color: #008080;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.register_form {
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    bottom: 0%;
+    right: 0%;
+    width: 35%;
+    height: 75%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+form {
+    padding: 0 2em;
+}
+
+.form__input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: 1em 0.5em 0.5em;
+    padding-left: 2em;
+    outline: none;
+    margin-top: 2.5em;
+    transition: all 0.5s ease;
+}
+
+.form__input:focus {
+    border-bottom-color: #008080;
+    box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
+    border-radius: 4px;
+}
+
+.register-btn {
+    transition: all 0.5s ease;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 30px;
+    color: #008080;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #008080;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.register-btn:hover,
+.register-btn:focus {
+    background-color: #008080;
+    color: #fff;
+}
+
+.custom-file-input {
+    display: flex;
+    color: white;
+    max-width: 250px;
+}
+
+.preview-container {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.preview-image {
+    order: 2;
+    width: 100px;
+    height: 100px;
+}
+
+.picture-input {
+    color: transparent;
+    opacity: 0;
+    display: none;
+}
+
+.error-message {
+    font-size: 12px;
+    color: red;
+    text-align: left;
+}
+
+#submit-mistake {
+    font-size: 15px;
+    color: red;
+}
+
+#username {
+    margin-top: 0.2em !important;
+}

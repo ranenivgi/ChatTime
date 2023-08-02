@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/ContactsFragment">
+
+    <fragment
+        android:id="@+id/ContactsFragment"
+        android:name="com.example.ap2_ex3.ContactsFragment"
+        android:label="Contacts Fragment"
+        tools:layout="@layout/fragment_contacts">
+        <argument
+            android:name="contactName"
+            app:argType="string" />
+        <argument
+            android:name="contactPic"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_first_to_second"
+            app:destination="@id/ChatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChatFragment"
+        android:name="com.example.ap2_ex3.ChatFragment"
+        android:label="Chat Fragment"
+        tools:layout="@layout/fragment_chat">
+        <action
+            android:id="@+id/action_second_to_first"
+            app:destination="@id/ContactsFragment" />
+    </fragment>
+</navigation>

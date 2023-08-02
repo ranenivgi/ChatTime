@@ -1,0 +1,47 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#chat .form-control {
+    border-color: transparent;
+}
+
+#screen-background {
+    overflow: auto;
+}
+#chat .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.bac {
+    background-color: #f0f2e4;
+}
+
+.block > * {
+    padding: 0%;
+}
+
+.block {
+    margin-left: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 80vw;
+    width: 100%;
+    height: 80vh;
+}

@@ -1,0 +1,4 @@
+#message-input {
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    margin-left: 1%;
+}

@@ -1,0 +1,38 @@
+/* info bar */
+/* .justify-content-start {
+    margin-left: 3%;
+} */
+
+.user-info {
+    background-color: steelblue;
+    border-top-left-radius: 20px;
+    border-right: 0.01px solid #127297ee;
+    overflow: auto;
+    margin-bottom: 0%;
+    color: white;
+    height: 55px;
+}
+
+.user-info img {
+    width: 40px;
+}
+
+.user-info > div.justify-content-start {
+    margin-left: 4%;
+}
+
+.current-chat-info {
+    background-color: steelblue;
+    border-top-right-radius: 20px;
+    margin-bottom: 0%;
+    color: white;
+    height: 55px;
+}
+
+.current-chat-info img {
+    width: 40px;
+}
+
+.current-chat-info > div.justify-content-start {
+    margin-left: 1%;
+}

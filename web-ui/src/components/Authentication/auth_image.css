@@ -1,0 +1,75 @@
+body {
+    background-size: cover;
+    min-width: 50%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.trapezoid-yellow {
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55%;
+    height: 80%;
+    transform: skew(deg);
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    background: #fec533;
+}
+
+.trapezoid-blue {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    right: 100%;
+    bottom: 0;
+    margin: auto;
+    width: 30%;
+    height: 80%;
+    transform: skew(deg);
+    clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    background: #136386;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform-icons {
+    position: absolute;
+    top: 60%;
+    left: 8.6%;
+    right: 100%;
+    bottom: 0%;
+    margin: auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform-icons a {
+    margin-left: 4%;
+    position: relative;
+    z-index: 1;
+}
+
+#available-on {
+    position: absolute;
+    top: 50%;
+    left: 9.3%;
+    right: 100%;
+    bottom: 0%;
+    font-size: large;
+    margin: auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

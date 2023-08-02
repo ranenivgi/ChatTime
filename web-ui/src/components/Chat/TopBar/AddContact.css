@@ -1,0 +1,60 @@
+/* Modal */
+.popup-icon {
+    margin-right: 5%;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: steelblue;
+    color: white;
+}
+
+.modal-dialog {
+    margin-top: 15%;
+}
+
+#wrong-modal-username {
+    color: red !important;
+    font-size: small !important;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal {
+    display: block;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+    color: #555;
+}
+
+.modal-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.modal-input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #aaa;
+    padding: 1em 0.5em 0.5em;
+    outline: none;
+    transition: all 0.5s ease;
+}
